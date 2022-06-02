@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("./ethereum-logo.png");
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    text-align: center;
+}
+
+
+#title{
+    color:rgb(179, 211, 240);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 40px;
+}
+
+input{
+    background-color: rgb(179, 211, 240);
+    font-size: 40px;
+    color:rgb(19, 33, 49);
+    border-color: rgb(145, 178, 209);
+    border:none;
+}
+
+#input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="button"]{
+    background-color: rgb(73, 148, 219);
+    font-size: 40px;
+    border-style: solid;
+}
+
+#resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: aliceblue;
+}
+
+#footer{
+    display: flex;
+    left:0;
+    right: 0;
+
+}
