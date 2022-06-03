@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-image: url("./ethereum-logo.png");
+    background-size: cover;
     font-family: 'Roboto Mono', monospace;
     position: relative;
     text-align: center;
