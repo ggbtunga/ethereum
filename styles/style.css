@@ -1,4 +1,5 @@
 body{
+
     padding: 0;
     margin: 0;
     background-image: url("./ethereum-logo.png");
@@ -20,38 +21,33 @@ body{
 
 input{
     background-color: rgb(179, 211, 240);
-    font-size: 40px;
+    font-size: 20px;
     color:rgb(19, 33, 49);
     border-color: rgb(145, 178, 209);
     border:none;
+    flex-wrap:wrap ;
+    flex-shrink: 1;
 }
 
 #input{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     flex-shrink:1;
+    align-items: center;
 }
 
 input[type="button"]{
     background-color: rgb(73, 148, 219);
-    font-size: 40px;
+    font-size: 20px;
     border-style: solid;
 }
 
 #resultado{
     display: flex;
-    margin-top:250px;
+    margin-top: 250px;
     flex-direction: column;
     justify-content:center;
     align-items: center;
     color: aliceblue;
-}
-
-#footer{
-    display: flex;
-    left:0;
-    right: 0;
-
 }
